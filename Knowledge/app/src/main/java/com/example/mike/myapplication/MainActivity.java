@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Bt1 = (Button) findViewById(R.id.button);
         Bt1.setOnClickListener(new View.OnClickListener() {
             public void onClick (View v){
 
@@ -24,9 +25,5 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
-    protected void gamesStart(){
-
-    }
 }
 

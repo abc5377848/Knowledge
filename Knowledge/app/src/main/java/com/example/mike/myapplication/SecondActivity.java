@@ -12,22 +12,27 @@ import android.widget.Button;
 
 public class SecondActivity extends AppCompatActivity {
 
-    ArrayList<Question> questions = new ArrayList<Question>();
+    private ArrayList<Question> questions = new ArrayList<Question>();
+    protected Random ran = new Random();
+    protected long reciprocal;
+    protected int firstNumber;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Random ran = new Random();
-        int firstNumber = ran.nextInt(questions.size());
-        Question q = new Question();
-        q = questions.get(firstNumber);
-        questions.remove(firstNumber);
-
         while(questions.isEmpty()){
+            Question q = new Question();
+            random(q);
 
         }
+
+        timerCount();
+
+    }
+
+    protected void timerCount(){
 
         new CountDownTimer(15000, 1000){
 
@@ -38,23 +43,28 @@ public class SecondActivity extends AppCompatActivity {
 
             @Override
             public void onTick(long millisUntilFinished) {
-
+                reciprocal = millisUntilFinished/1000;
             }
         }.start();
 
     }
 
+    protected void random(Question q){
 
-    protected void gamesStart(){
+        firstNumber = ran.nextInt(questions.size());
+        q = questions.get(firstNumber);
+        questions.remove(firstNumber);
 
     }
-}
 
+}
 class Question {
+
     String question;
     String A;
     String B;
     String C;
     String D;
     String correctAnswer;
+
 }
