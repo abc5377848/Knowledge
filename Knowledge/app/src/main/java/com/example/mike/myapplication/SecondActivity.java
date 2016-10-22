@@ -19,8 +19,6 @@ public class SecondActivity extends AppCompatActivity {
     protected Random ran = new Random();
     protected long reciprocal;
     protected int firstNumber;
-<<<<<<< HEAD
-=======
     protected TextView questionName;
     protected TextView answerTA;
     protected RadioButton answerRA;
@@ -31,7 +29,6 @@ public class SecondActivity extends AppCompatActivity {
     protected TextView answerTD;
     protected RadioButton answerRD;
     protected TextView timeCount;
->>>>>>> origin/Branch_One
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,19 +38,9 @@ public class SecondActivity extends AppCompatActivity {
         while(questions.isEmpty()){
             Question q = new Question();
             random(q);
-<<<<<<< HEAD
-
-=======
             printOption(q);
             timerCount();
->>>>>>> origin/Branch_One
         }
-    }
-
-    protected void timerCount(){
-
-        timerCount();
-
     }
 
     protected void timerCount(){
@@ -66,15 +53,10 @@ public class SecondActivity extends AppCompatActivity {
             }
 
             @Override
-<<<<<<< HEAD
-            public void onTick(long millisUntilFinished) {
-                reciprocal = millisUntilFinished/1000;
-=======
             public void onTick(long millisUntilFinished)
             {
                 reciprocal = millisUntilFinished/1000;
                 timeCount.setText(reciprocal + "");
->>>>>>> origin/Branch_One
             }
         }.start();
 
@@ -87,9 +69,6 @@ public class SecondActivity extends AppCompatActivity {
         questions.remove(firstNumber);
 
     }
-<<<<<<< HEAD
-
-=======
     protected void printOption(Question q){
         questionName.setText(q.question);
         answerTA.setText(q.A);
@@ -97,7 +76,6 @@ public class SecondActivity extends AppCompatActivity {
         answerTC.setText(q.C);
         answerTD.setText(q.D);
     }
->>>>>>> origin/Branch_One
 }
 class Question {
 
