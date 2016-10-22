@@ -6,6 +6,8 @@ import java.util.ArrayList;
 
 import android.view.View;
 import android.widget.Button;
+import android.app.Activity;
+import android.content.Intent;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -19,7 +21,10 @@ public class MainActivity extends AppCompatActivity {
         Bt1 = (Button) findViewById(R.id.button);
         Bt1.setOnClickListener(new View.OnClickListener() {
             public void onClick (View v){
-
+                Intent intent = new Intent();
+                intent.setClass(MainActivity.this, SecondActivity.class);
+                startActivity(intent);
+                MainActivity.this.finish();
             }
         });
 
