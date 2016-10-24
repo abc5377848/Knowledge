@@ -13,7 +13,7 @@ import android.widget.RadioButton;
 import android.widget.TextView;
 
 
-public class SecondActivity extends AppCompatActivity {
+public class SecondActivity extends Activity {
 
     private ArrayList<Question> questions = new ArrayList<Question>();
     protected Random ran = new Random();
