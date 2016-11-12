@@ -56,12 +56,12 @@
         "source": "C:\\Users\\mike84\\AndroidStudioProjects\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "C:\\Users\\mike84\\AndroidStudioProjects\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\mike84\\AndroidStudioProjects\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
         "merged": "C:\\Users\\mike84\\AndroidStudioProjects\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main2.xml",
         "source": "C:\\Users\\mike84\\AndroidStudioProjects\\Knowledge\\app\\src\\main\\res\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "C:\\Users\\mike84\\AndroidStudioProjects\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\mike84\\AndroidStudioProjects\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "C:\\Users\\mike84\\AndroidStudioProjects\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
