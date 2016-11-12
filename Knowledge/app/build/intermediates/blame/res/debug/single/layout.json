@@ -56,6 +56,7 @@
         "source": "C:\\Users\\Jack\\Documents\\Knowledge\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\Jack\\Documents\\Knowledge\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "C:\\Users\\Jack\\Documents\\Knowledge\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_screen_content_include.xml"
     },
@@ -66,6 +67,18 @@
     {
         "merged": "C:\\Users\\Jack\\Documents\\Knowledge\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
         "source": "C:\\Users\\Jack\\Documents\\Knowledge\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_dialog_title_material.xml"
+=======
+        "merged": "C:\\Users\\mike84\\AndroidStudioProjects\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main2.xml",
+        "source": "C:\\Users\\mike84\\AndroidStudioProjects\\Knowledge\\app\\src\\main\\res\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "C:\\Users\\mike84\\AndroidStudioProjects\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\mike84\\AndroidStudioProjects\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\mike84\\AndroidStudioProjects\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\mike84\\AndroidStudioProjects\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\layout\\abc_alert_dialog_material.xml"
+>>>>>>> Branch_one
     },
     {
         "merged": "C:\\Users\\Jack\\Documents\\Knowledge\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
