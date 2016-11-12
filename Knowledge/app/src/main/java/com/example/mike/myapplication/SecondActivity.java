@@ -34,8 +34,10 @@ public class SecondActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        timeCount = (TextView)findViewById(R.id.timeCount);
+        timerCount();
 
-   /*     while(!questions.isEmpty()){
+    /*     while(!questions.isEmpty()){
             Question q = new Question();
             try{
                 random(q);
@@ -44,7 +46,6 @@ public class SecondActivity extends Activity {
                 e.printStackTrace();
             }
 
-            timerCount();
         }*/
     }
 
@@ -54,7 +55,7 @@ public class SecondActivity extends Activity {
 
             @Override
             public void onFinish() {
-
+                timeCount.setText("Game over");
             }
 
             @Override
