@@ -35,7 +35,7 @@ public class SecondActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-   /*     while(!questions.isEmpty()){
+/*          while(!questions.isEmpty()){
             Question q = new Question();
             try{
                 random(q);
