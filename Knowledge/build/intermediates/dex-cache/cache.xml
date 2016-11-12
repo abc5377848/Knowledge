@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Jack\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_28581db74bb5dadc91dc11bb8148539137ae84bf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -30,48 +39,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6a1247bd824ef876a3bb22858d51c98822245cfe\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_37705b49b7c13e964d34bfa1c7f75666a442a240\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_8b6d1bc5fe2e370e78611e56980ec3398d780a3e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Jack\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_28581db74bb5dadc91dc11bb8148539137ae84bf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
         <dex dex="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_8c99788752f9d06da0366881baf576d7d60addb1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6a1247bd824ef876a3bb22858d51c98822245cfe\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -88,8 +70,17 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="aebea92943b29ea47ae17d87566e12774b11ba56">
+        sha1="7121466f7dd6bed1999d38f8c17e804428ff413b">
         <dex dex="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7b3407ffff9500883c2f5b8683b2476fcfd3b88c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_37705b49b7c13e964d34bfa1c7f75666a442a240\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -106,8 +97,17 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="b0d647dae247b44121ef5de1db2c191ae709c7c3">
+        sha1="825610bcaf74b5e81af9d5d116b95dac078910a0">
         <dex dex="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4037061330a0d7b214f95274397d172f220ce712\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_8b6d1bc5fe2e370e78611e56980ec3398d780a3e\classes.dex" />
     </item>
     <item
         is-multidex="true"

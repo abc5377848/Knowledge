@@ -34,6 +34,8 @@ public class SecondActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        timeCount = (TextView)findViewById(R.id.timeCount);
+        timerCount();
 
     /*     while(!questions.isEmpty()){
             Question q = new Question();
@@ -44,7 +46,6 @@ public class SecondActivity extends Activity {
                 e.printStackTrace();
             }
 
-            timerCount();
         }*/
     }
 
