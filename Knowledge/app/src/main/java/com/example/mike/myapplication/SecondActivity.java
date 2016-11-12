@@ -35,12 +35,13 @@ public class SecondActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        while(questions.isEmpty()){
+      /*  while(questions.isEmpty()){
             Question q = new Question();
             random(q);
             printOption(q);
             timerCount();
-        }
+        }*/
+        timerCount();
     }
 
     protected void timerCount(){
