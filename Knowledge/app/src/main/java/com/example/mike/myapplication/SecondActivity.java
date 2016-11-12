@@ -33,19 +33,14 @@ public class SecondActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_main);
 
-   /*     while(!questions.isEmpty()){
+        while(questions.isEmpty()){
             Question q = new Question();
-            try{
-                random(q);
-                printOption(q);
-            }catch (Exception e){
-                e.printStackTrace();
-            }
-
+            random(q);
+            printOption(q);
             timerCount();
-        }*/
+        }
     }
 
     protected void timerCount(){
@@ -54,7 +49,7 @@ public class SecondActivity extends Activity {
 
             @Override
             public void onFinish() {
-
+                timeCount.setText("Game over");
             }
 
             @Override
