@@ -1,6 +1,8 @@
 package com.example.mike.myapplication;
 
+import android.content.DialogInterface;
 import android.os.CountDownTimer;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import java.util.ArrayList;
@@ -26,6 +28,8 @@ public class SecondActivity extends Activity {
     protected Button answerC;
     protected Button answerD;
     protected Button backHome;
+
+
 
 
     @Override
@@ -71,7 +75,8 @@ public class SecondActivity extends Activity {
 
             @Override
             public void onFinish() {
-                timeCount.setText("Game over");
+                
+                dialog();
             }
 
             @Override
@@ -81,6 +86,24 @@ public class SecondActivity extends Activity {
                 timeCount.setText(reciprocal + "");
             }
         }.start();
+
+    }
+
+    protected void dialog(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(SecondActivity.this);
+        builder.setTitle("時間到了");
+        builder.setMessage("Game Over");
+        builder.setPositiveButton("OK",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Intent intent = new Intent();
+                        intent.setClass(SecondActivity.this, MainActivity.class);
+                        startActivity(intent);
+                        SecondActivity.this.finish();
+                    }
+                }
+        ).show();
 
     }
 

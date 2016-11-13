@@ -61,13 +61,8 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-<<<<<<< HEAD
-        sha1="ce13e2dafd4f486f427fa355687de36096444f46">
-        <dex dex="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7b3407ffff9500883c2f5b8683b2476fcfd3b88c\classes.dex" />
-=======
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
         <dex dex="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_28581db74bb5dadc91dc11bb8148539137ae84bf\classes.dex" />
->>>>>>> three
     </item>
     <item
         is-multidex="true"
@@ -93,13 +88,8 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-<<<<<<< HEAD
-        sha1="ce0d737a3e456de8411b62fba92ab1994870a684">
-        <dex dex="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4037061330a0d7b214f95274397d172f220ce712\classes.dex" />
-=======
-        sha1="847a62901624d7566e9d1fb9c2936186ffdf1b3e">
+        sha1="35b0e2b66ec13794116f4a54e0d813c363380dac">
         <dex dex="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7b3407ffff9500883c2f5b8683b2476fcfd3b88c\classes.dex" />
->>>>>>> three
     </item>
     <item
         is-multidex="true"
@@ -116,7 +106,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="b8efaecd2633b5b2098141b26829bef46176011b">
+        sha1="e46541f60b1d69f130cc427f0b9c21a28851e3b2">
         <dex dex="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4037061330a0d7b214f95274397d172f220ce712\classes.dex" />
     </item>
     <item
