@@ -43,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="73e10d3fd5cead2f53e721fed99b490605fe9354">
+        sha1="e89e71465c311d4bb4e922543b27851531feb407">
         <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d9574cc47190732cdf7ab95fb05a4b7c0108f48e\classes.dex" />
     </item>
     <item
@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="b0a218733aac431afaa4338b889b43f5abb4944b">
+        sha1="f8c87fb1e107363bda4079301839449abd62b411">
         <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_50d0488b44b6d73e294d5a2a0790318b7cd03ac9\classes.dex" />
     </item>
     <item
