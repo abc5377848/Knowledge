@@ -65,23 +65,6 @@ public class SecondActivity extends Activity {
         random();
         printOption(Number);
 
-
-
-<<<<<<< HEAD
-/*          while(!questions.isEmpty()){
-=======
-
-    /*     while(!questions.isEmpty()){
->>>>>>> 9dc770693e1a63da6a50a1b83801a47eef5f2973
-            Question q = new Question();
-            try{
-                random(q);
-                printOption(q);
-            }catch (Exception e){
-                e.printStackTrace();
-            }
-
-        }*/
     }
 
     protected void timerCount(){

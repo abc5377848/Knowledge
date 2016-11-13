@@ -45,5 +45,4 @@ public class MyDBHelper extends SQLiteOpenHelper {
         db.execSQL(DROP);
         onCreate(db);
     }
-
 }

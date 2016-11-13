@@ -1,30 +1,29 @@
 [
     {
-        "merged": "D:\\Know\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "D:\\Know\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\switch_thumb_material_light.xml"
+        "merged": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "D:\\Know\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "D:\\Know\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "D:\\Know\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
-        "source": "D:\\Know\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_spinner.xml"
+        "merged": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\switch_thumb_material_light.xml"
     },
     {
-        "merged": "D:\\Know\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
-        "source": "D:\\Know\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_edittext.xml"
+        "merged": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "D:\\Know\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "D:\\Know\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "D:\\Know\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "D:\\Know\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
         "source": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_seek_thumb.xml"
     },
@@ -33,51 +32,39 @@
         "source": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_search_url_text.xml"
     },
     {
+        "merged": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
         "merged": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
         "source": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_edittext.xml"
-=======
-        "merged": "D:\\Know\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "D:\\Know\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_search_url_text.xml"
     },
     {
-        "merged": "D:\\Know\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "D:\\Know\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_seek_thumb.xml"
+        "merged": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "D:\\Know\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "D:\\Know\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
->>>>>>> 9dc770693e1a63da6a50a1b83801a47eef5f2973
+        "merged": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_spinner.xml"
     },
     {
-        "merged": "D:\\Know\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "D:\\Know\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "D:\\Know\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "D:\\Know\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "D:\\Know\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
-        "source": "D:\\Know\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_default.xml"
+        "merged": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "D:\\Know\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "D:\\Know\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_switch_track.xml"
+        "merged": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "D:\\Know\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "D:\\Know\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "D:\\Know\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "D:\\Know\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "D:\\Know\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
-        "source": "D:\\Know\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "D:\\Know\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "D:\\Know\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_btn_checkable.xml"
+        "merged": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "D:\\cph ST file\\Knowledge\\Knowledge\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\color\\abc_tint_default.xml"
     }
 ]
