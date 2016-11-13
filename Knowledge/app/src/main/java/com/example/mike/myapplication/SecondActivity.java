@@ -1,26 +1,28 @@
 package com.example.mike.myapplication;
 
+import android.app.Activity;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import java.util.ArrayList;
-import java.util.Random;
-import android.app.Activity;
-import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
-import android.widget.RadioButton;
 import android.widget.TextView;
+
+import java.util.ArrayList;
+import java.util.Random;
 
 
 public class SecondActivity extends Activity {
 
-    private ArrayList<Question> questions = new ArrayList<Question>();
+    private ArrayList<Integer> questions = new ArrayList<Integer>();
     protected Random ran = new Random();
     protected long reciprocal;
-    protected int firstNumber;
+    protected int Number;
+    protected String answer;
     protected TextView questionTitle;
     protected TextView timeCount;
     protected Button answerA;
@@ -28,7 +30,8 @@ public class SecondActivity extends Activity {
     protected Button answerC;
     protected Button answerD;
     protected Button backHome;
-
+    protected MyDBHelper myDB;
+    protected SQLiteDatabase db;
 
 
 
@@ -37,6 +40,7 @@ public class SecondActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         timeCount = (TextView)findViewById(R.id.timeCount);
+        questionTitle = (TextView)findViewById(R.id.questionTitle);
         answerA = (Button) findViewById(R.id.answerA);
         answerB = (Button) findViewById(R.id.answerB);
         answerC = (Button) findViewById(R.id.answerC);
@@ -50,9 +54,16 @@ public class SecondActivity extends Activity {
                 SecondActivity.this.finish();
             }
         });
-
-
         timerCount();
+        myDB = new MyDBHelper(this, "MyDB", null, 1);
+        db = myDB.getWritableDatabase();
+        Cursor cursor = db.rawQuery("SELECT TopicNum FROM Exam", null); //看資料庫題號
+        while (cursor.moveToNext()) {
+            int num = cursor.getInt(0);
+            questions.add(num);
+        }
+        random();
+        printOption(Number);
 
 
 
@@ -107,28 +118,20 @@ public class SecondActivity extends Activity {
 
     }
 
-    protected void random(Question q){
-
-        firstNumber = ran.nextInt(questions.size());
-        q = questions.get(firstNumber);
-        questions.remove(firstNumber);
-
+    protected void random(){
+        int RandomNum = ran.nextInt(questions.size());
+        Number = questions.get(RandomNum);
+        questions.remove(RandomNum);
     }
-    protected void printOption(Question q){
-        questionTitle.setText(q.question);
-        answerA.setText(q.A);
-        answerB.setText(q.B);
-        answerC.setText(q.C);
-        answerD.setText(q.D);
+    protected void printOption(int q){
+        Cursor cursor = db.rawQuery("SELECT Topic, A, B, C, D, Answer FROM Exam WHERE TopicNum = " + q, null); //看資料庫題號
+        while (cursor.moveToNext()) {
+            questionTitle.setText(cursor.getString(0) + "");
+            answerA.setText(cursor.getString(1) + "");
+            answerB.setText(cursor.getString(2) + "");
+            answerC.setText(cursor.getString(3) + "");
+            answerD.setText(cursor.getString(4) + "");
+            answer = cursor.getString(5) + "";
+        }
     }
-}
-class Question {
-
-    String question;
-    String A;
-    String B;
-    String C;
-    String D;
-    String correctAnswer;
-
 }
