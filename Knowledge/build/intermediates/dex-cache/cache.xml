@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="2c471ba1040f57dbf504fb31a53cd5a458d5d48e">
+        sha1="5f0f5c0552d9f59ee1c6197089de890f038c4f9b">
         <dex dex="D:\Know\Knowledge\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_7c1916faa2d6de5fe27d7ef7bf0b0116648dfef2.jar" />
     </item>
     <item
@@ -205,7 +205,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="732b3bedc66caadf3fd610819e4311b06c2b1ea9">
+        sha1="cc47818dc935b9c0adbbad68c6b5da09950f7a41">
         <dex dex="D:\Know\Knowledge\app\build\intermediates\pre-dexed\debug\instant-run_a9d56468503a78d3cdab192a09276e4f7fecda5c.jar" />
     </item>
     <item
