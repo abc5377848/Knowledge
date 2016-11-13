@@ -19,23 +19,39 @@ public class SecondActivity extends Activity {
     protected Random ran = new Random();
     protected long reciprocal;
     protected int firstNumber;
-    protected TextView questionName;
-    protected TextView answerTA;
-    protected RadioButton answerRA;
-    protected TextView answerTB;
-    protected RadioButton answerRB;
-    protected TextView answerTC;
-    protected RadioButton answerRC;
-    protected TextView answerTD;
-    protected RadioButton answerRD;
+    protected TextView questionTitle;
     protected TextView timeCount;
+    protected Button answerA;
+    protected Button answerB;
+    protected Button answerC;
+    protected Button answerD;
+    protected Button backHome;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         timeCount = (TextView)findViewById(R.id.timeCount);
+        answerA = (Button) findViewById(R.id.answerA);
+        answerB = (Button) findViewById(R.id.answerB);
+        answerC = (Button) findViewById(R.id.answerC);
+        answerD = (Button) findViewById(R.id.answerD);
+        backHome = (Button) findViewById(R.id.backHome);
+        backHome.setOnClickListener(new View.OnClickListener() {
+            public void onClick (View v){
+                Intent intent = new Intent();
+                intent.setClass(SecondActivity.this, MainActivity.class);
+                startActivity(intent);
+                SecondActivity.this.finish();
+            }
+        });
+
+
         timerCount();
+
+
+
 
     /*     while(!questions.isEmpty()){
             Question q = new Question();
@@ -76,11 +92,11 @@ public class SecondActivity extends Activity {
 
     }
     protected void printOption(Question q){
-        questionName.setText(q.question);
-        answerTA.setText(q.A);
-        answerTB.setText(q.B);
-        answerTC.setText(q.C);
-        answerTD.setText(q.D);
+        questionTitle.setText(q.question);
+        answerA.setText(q.A);
+        answerB.setText(q.B);
+        answerC.setText(q.C);
+        answerD.setText(q.D);
     }
 }
 class Question {
