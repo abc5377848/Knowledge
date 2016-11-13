@@ -75,7 +75,7 @@ public class SecondActivity extends Activity {
 
             @Override
             public void onFinish() {
-                
+
                 dialog();
             }
 
