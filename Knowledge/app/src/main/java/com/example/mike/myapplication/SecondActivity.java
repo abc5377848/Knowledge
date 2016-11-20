@@ -32,6 +32,7 @@ public class SecondActivity extends Activity {
     protected Button backHome;
     protected MyDBHelper myDB;
     protected SQLiteDatabase db;
+    protected CountDownTimer CDT;                                               // 11/20新增一個倒數計時器的物件，這是為了在backHome那裏關掉倒數
 
 
 
@@ -46,14 +47,7 @@ public class SecondActivity extends Activity {
         answerC = (Button) findViewById(R.id.answerC);
         answerD = (Button) findViewById(R.id.answerD);
         backHome = (Button) findViewById(R.id.backHome);
-        backHome.setOnClickListener(new View.OnClickListener() {
-            public void onClick (View v){
-                Intent intent = new Intent();
-                intent.setClass(SecondActivity.this, MainActivity.class);
-                startActivity(intent);
-                SecondActivity.this.finish();
-            }
-        });
+
         timerCount();
         myDB = new MyDBHelper(this, "MyDB", null, 1);
         db = myDB.getWritableDatabase();
@@ -65,16 +59,69 @@ public class SecondActivity extends Activity {
         random();
         printOption(Number);
 
+        answerA.setOnClickListener(new View.OnClickListener() {
+            public void onClick (View v){
+                CDT.cancel();
+                if(answerA.getText().equals(answer)){
+                    chooseAnswer("恭喜你", "答對了~~!好棒棒喔^^", "不玩了");
+                }
+                else{
+                    chooseAnswer("好可惜喔~!", "答錯囉~~!真是笨阿", "在猜一次");
+                }
+            }
+        });
+
+        answerB.setOnClickListener(new View.OnClickListener() {
+            public void onClick (View v){
+                CDT.cancel();
+                if(answerB.getText().equals(answer)){
+                    chooseAnswer("恭喜你", "答對了~~!好棒棒喔^^", "不玩了");
+                }
+                else{
+                    chooseAnswer("好可惜喔~!", "答錯囉~~!真是笨阿", "在猜一次");
+                }
+            }
+        });
+
+        answerC.setOnClickListener(new View.OnClickListener() {
+            public void onClick (View v){
+                CDT.cancel();
+                if(answerC.getText().equals(answer)){
+                    chooseAnswer("恭喜你", "答對了~~!好棒棒喔^^", "不玩了");
+                }
+                else{
+                    chooseAnswer("好可惜喔~!", "答錯囉~~!真是笨阿", "在猜一次");
+                }
+            }
+        });
+
+        answerD.setOnClickListener(new View.OnClickListener() {
+            public void onClick (View v){
+                CDT.cancel();
+                if(answerD.getText().equals(answer)){
+                    chooseAnswer("恭喜你", "答對了~~!好棒棒喔^^", "不玩了");
+                }
+                else{
+                    chooseAnswer("好可惜喔~!", "答錯囉~~!真是笨阿", "在猜一次");
+                }
+            }
+        });
+
+        backHome.setOnClickListener(new View.OnClickListener() {
+            public void onClick (View v){
+                backHome();
+            }
+        });
+
     }
 
-    protected void timerCount(){
+    protected void timerCount(){                                      // 計時
 
-        new CountDownTimer(15000, 1000){
+        CDT =  new CountDownTimer(15000, 1000){
 
             @Override
             public void onFinish() {
-
-                dialog();
+                    dialog();
             }
 
             @Override
@@ -84,10 +131,9 @@ public class SecondActivity extends Activity {
                 timeCount.setText(reciprocal + "");
             }
         }.start();
-
     }
 
-    protected void dialog(){
+    protected void dialog(){                                          // 時間到了
         AlertDialog.Builder builder = new AlertDialog.Builder(SecondActivity.this);
         builder.setTitle("時間到了");
         builder.setMessage("Game Over");
@@ -98,19 +144,18 @@ public class SecondActivity extends Activity {
                         Intent intent = new Intent();
                         intent.setClass(SecondActivity.this, MainActivity.class);
                         startActivity(intent);
-                        SecondActivity.this.finish();
                     }
                 }
         ).show();
 
     }
 
-    protected void random(){
+    protected void random(){                                          // 隨機抽取
         int RandomNum = ran.nextInt(questions.size());
         Number = questions.get(RandomNum);
         questions.remove(RandomNum);
     }
-    protected void printOption(int q){
+    protected void printOption(int q){                                // 顯示題目及選項
         Cursor cursor = db.rawQuery("SELECT Topic, A, B, C, D, Answer FROM Exam WHERE TopicNum = " + q, null); //看資料庫題號
         while (cursor.moveToNext()) {
             questionTitle.setText(cursor.getString(0));
@@ -120,5 +165,37 @@ public class SecondActivity extends Activity {
             answerD.setText(cursor.getString(4));
             answer = cursor.getString(5) + "";
         }
+    }
+
+    protected void backHome(){                                        // 回到首頁
+        Intent intent = new Intent();
+        intent.setClass(SecondActivity.this, MainActivity.class);
+        startActivity(intent);
+        SecondActivity.this.finish();
+        CDT.cancel();                                                 // 11/20就在這裡
+    }
+
+    protected void chooseAnswer(String A, String B, String C){        //選完答案根據選項還出現不同的對話框
+        AlertDialog.Builder builder = new AlertDialog.Builder(SecondActivity.this);
+        builder.setTitle(A);
+        builder.setMessage(B);
+        builder.setPositiveButton(C,
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                            backHome();
+                    }
+                }
+        );
+        builder.setNegativeButton("下一題",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        timerCount();
+                        random();
+                        printOption(Number);
+                    }
+                }
+        ).show();
     }
 }
