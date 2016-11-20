@@ -3,15 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_0741227a3cdcb418b983cd8747247f7d14b9f389\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
@@ -21,57 +12,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="563549a307dd0a88ef4b5052271bfc392b212a97">
-        <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_50d0488b44b6d73e294d5a2a0790318b7cd03ac9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_adc2729d01e8377eeeede1c2c258d0f04f6e7e28\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_99edc310978f29bbe7e1f7cdead9dce717d42e54\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_6cdafff4e3f1d8cf015e286d1032be5c7f88bf6f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
         <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_e56bfd2773e4f5ff6f4665d8efd3633df8800ddf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_f39c3cfb88a31fda31a0ae24ff0bd9e3d380ac26\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -99,15 +45,6 @@
         revision="24.0.2"
         sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
         <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_c0699a59d92a848acb646af8d580c4b6e99a0e6b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_602968b2327a4c400cd71dab9d8d351504b31c1f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -142,7 +79,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="b491b9227b105d22f64802b549fc22b42462109a">
+        sha1="9162782179ed865883b78b55898b2739a7cc81e6">
         <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d9574cc47190732cdf7ab95fb05a4b7c0108f48e\classes.dex" />
     </item>
     <item
@@ -153,6 +90,69 @@
         revision="24.0.2"
         sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
         <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6b7e2160b8a9c178162e910e31592e899c02960c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_0741227a3cdcb418b983cd8747247f7d14b9f389\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fb3e4b6f0e090d6f698a8d340bbe6f93c443b471">
+        <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_50d0488b44b6d73e294d5a2a0790318b7cd03ac9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_adc2729d01e8377eeeede1c2c258d0f04f6e7e28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_99edc310978f29bbe7e1f7cdead9dce717d42e54\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_6cdafff4e3f1d8cf015e286d1032be5c7f88bf6f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_f39c3cfb88a31fda31a0ae24ff0bd9e3d380ac26\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_602968b2327a4c400cd71dab9d8d351504b31c1f\classes.dex" />
     </item>
 
 </items>

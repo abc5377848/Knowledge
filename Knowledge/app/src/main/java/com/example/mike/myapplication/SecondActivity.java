@@ -113,11 +113,11 @@ public class SecondActivity extends Activity {
     protected void printOption(int q){
         Cursor cursor = db.rawQuery("SELECT Topic, A, B, C, D, Answer FROM Exam WHERE TopicNum = " + q, null); //看資料庫題號
         while (cursor.moveToNext()) {
-            questionTitle.setText(cursor.getString(0) + "");
-            answerA.setText(cursor.getString(1) + "");
-            answerB.setText(cursor.getString(2) + "");
-            answerC.setText(cursor.getString(3) + "");
-            answerD.setText(cursor.getString(4) + "");
+            questionTitle.setText(cursor.getString(0));
+            answerA.setText(cursor.getString(1));
+            answerB.setText(cursor.getString(2));
+            answerC.setText(cursor.getString(3));
+            answerD.setText(cursor.getString(4));
             answer = cursor.getString(5) + "";
         }
     }
