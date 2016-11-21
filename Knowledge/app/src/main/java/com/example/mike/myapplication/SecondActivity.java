@@ -5,6 +5,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.support.v7.app.AlertDialog;
@@ -12,6 +13,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -33,6 +35,8 @@ public class SecondActivity extends Activity {
     protected MyDBHelper myDB;
     protected SQLiteDatabase db;
     protected CountDownTimer CDT;                                               // 11/20新增一個倒數計時器的物件，這是為了在backHome那裏關掉倒數
+    MediaPlayer right ;
+    MediaPlayer mistake;
 
 
 
@@ -47,6 +51,11 @@ public class SecondActivity extends Activity {
         answerC = (Button) findViewById(R.id.answerC);
         answerD = (Button) findViewById(R.id.answerD);
         backHome = (Button) findViewById(R.id.backHome);
+        right = MediaPlayer.create(SecondActivity.this, R.raw.correct);
+        mistake = MediaPlayer.create(SecondActivity.this, R.raw.incorrect);
+        right.setVolume(20,20);
+        mistake.setVolume(10,10);
+
 
         timerCount();
         myDB = new MyDBHelper(this, "MyDB", null, 1);
@@ -63,10 +72,12 @@ public class SecondActivity extends Activity {
             public void onClick (View v){
                 CDT.cancel();
                 if(answerA.getText().equals(answer)){
-                    chooseAnswer("恭喜你", "答對了~~!好棒棒喔^^", "不玩了");
+                    right.start();
+                    chooseAnswer("恭喜你", "答對了~~!真棒^^", "不玩了");
                 }
                 else{
-                    chooseAnswer("好可惜喔~!", "答錯囉~~!真是笨阿", "在猜一次");
+                    mistake.start();
+                    chooseAnswer("好可惜喔~!", "答錯囉~~!蒸蚌", "在猜一次");
                 }
             }
         });
@@ -75,10 +86,12 @@ public class SecondActivity extends Activity {
             public void onClick (View v){
                 CDT.cancel();
                 if(answerB.getText().equals(answer)){
-                    chooseAnswer("恭喜你", "答對了~~!好棒棒喔^^", "不玩了");
+                    right.start();
+                    chooseAnswer("恭喜你", "答對了~~!真棒^^", "不玩了");
                 }
                 else{
-                    chooseAnswer("好可惜喔~!", "答錯囉~~!真是笨阿", "在猜一次");
+                    mistake.start();
+                    chooseAnswer("好可惜喔~!", "答錯囉~~!蒸蚌", "在猜一次");
                 }
             }
         });
@@ -87,10 +100,12 @@ public class SecondActivity extends Activity {
             public void onClick (View v){
                 CDT.cancel();
                 if(answerC.getText().equals(answer)){
-                    chooseAnswer("恭喜你", "答對了~~!好棒棒喔^^", "不玩了");
+                    right.start();
+                    chooseAnswer("恭喜你", "答對了~~!真棒^^", "不玩了");
                 }
                 else{
-                    chooseAnswer("好可惜喔~!", "答錯囉~~!真是笨阿", "在猜一次");
+                    mistake.start();
+                    chooseAnswer("好可惜喔~!", "答錯囉~~!蒸蚌", "在猜一次");
                 }
             }
         });
@@ -99,10 +114,12 @@ public class SecondActivity extends Activity {
             public void onClick (View v){
                 CDT.cancel();
                 if(answerD.getText().equals(answer)){
-                    chooseAnswer("恭喜你", "答對了~~!好棒棒喔^^", "不玩了");
+                    right.start();
+                    chooseAnswer("恭喜你", "答對了~~!真棒^^", "不玩了");
                 }
                 else{
-                    chooseAnswer("好可惜喔~!", "答錯囉~~!真是笨阿", "在猜一次");
+                    mistake.start();
+                    chooseAnswer("好可惜喔~!", "答錯囉~~!蒸蚌", "在猜一次");
                 }
             }
         });
@@ -183,7 +200,15 @@ public class SecondActivity extends Activity {
                 new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                            backHome();
+                        try {
+                            right.stop();
+                            mistake.stop();
+                            right.prepare();
+                            mistake.prepare();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+                        backHome();
                     }
                 }
         );
@@ -193,6 +218,15 @@ public class SecondActivity extends Activity {
                     public void onClick(DialogInterface dialog, int which) {
                         timerCount();
                         random();
+                        try {
+                            right.stop();
+                            mistake.stop();
+                            right.prepare();
+                            mistake.prepare();
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
+
                         printOption(Number);
                     }
                 }
