@@ -79,8 +79,13 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
+<<<<<<< HEAD
         sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
         <dex dex="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9356a3fb139adbda01f7c181a9752ba58056c34c\classes.dex" />
+=======
+        sha1="a78d09357c0d7bc623f295fdfd452be1edeec154">
+        <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d9574cc47190732cdf7ab95fb05a4b7c0108f48e\classes.dex" />
+>>>>>>> b5b873ebca8fc4e8d956f8f88fa5487a6abc5e2a
     </item>
     <item
         is-multidex="true"
@@ -106,8 +111,13 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
+<<<<<<< HEAD
         sha1="dc7d327aeecd8dd37e509574f0b1e0e36be98d30">
         <dex dex="C:\Users\Jack\Documents\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4037061330a0d7b214f95274397d172f220ce712\classes.dex" />
+=======
+        sha1="b3adbc2d1dd54a4d0c784b6c7ec778222777dc5a">
+        <dex dex="D:\cph ST file\Knowledge\Knowledge\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_50d0488b44b6d73e294d5a2a0790318b7cd03ac9\classes.dex" />
+>>>>>>> b5b873ebca8fc4e8d956f8f88fa5487a6abc5e2a
     </item>
     <item
         is-multidex="true"
