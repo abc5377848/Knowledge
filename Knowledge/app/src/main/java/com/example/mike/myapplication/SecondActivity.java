@@ -63,12 +63,12 @@ public class SecondActivity extends Activity {
         Cursor cursor = db.rawQuery("SELECT TopicNum FROM Exam", null); //看資料庫題號
         while (cursor.moveToNext()) {
             int num = cursor.getInt(0);
-            questions.add(num);
-        }
-        random();
-        printOption(Number);
 
-        answerA.setOnClickListener(new View.OnClickListener() {
+
+        answerA.     questions.add(num);
+    }
+    random();
+    printOption(Number);setOnClickListener(new View.OnClickListener() {
             public void onClick (View v){
                 CDT.cancel();
                 if(answerA.getText().equals(answer)){
